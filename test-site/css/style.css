@@ -1,0 +1,94 @@
+/*
+Theme Name: Test-site.
+Description: Theme for sample test website.
+Version: 1.0
+Author: RiyasRouf
+*/
+
+*{
+	box-sizing: border-box;
+	font-family: raleway;
+	color: #777;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.nav ul{
+	margin: 0px;
+}
+.nav li{
+	display: inline;
+}
+.nav a{
+	display: inline-block; 
+	padding: .5em;
+	color: white;
+	text-decoration: none;
+}
+.main-nav {
+	text-align: center;
+	font-size: 2em;
+	font-weight: lighter;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+}
+.main-nav li{
+	padding: 0 3%;
+}
+.nav a:hover{
+	background-color: rgba(255, 255, 255, .3);
+}
+.main-header{
+	background-color: rgba(0,0,0,.6);
+	background-image: url(../images/album3.png);
+	background-blend-mode: multiply;
+	background-size: cover;
+	padding-bottom: 30px;
+}
+.band-name{
+	text-align: center;
+	margin: 0;
+	font-size: 2em;
+	font-family: "Booter - Zero Zero";
+	font-weight: normal;
+	color: white;
+}
+.band-name-header{
+	font-size: 7em;
+}
+.content-section{
+	margin: 1em;
+}
+.container{
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+.about-band-image{
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	border-radius: 50%;
+}
+.main-footer{
+	background-color: #56CCF2;
+	color: white;
+	padding: .25em 0;
+}
+.main-footer-container{
+	display: flex;
+	align-items: center;
+}
+.main-footer-container ul{
+	flex-grow: 1;
+	text-align: end;
+}
+.footer-nav li{
+	padding: 0 .5em;
+}
+.footer-nav img{
+	width: 30px;
+	height: 30px;	
+}
